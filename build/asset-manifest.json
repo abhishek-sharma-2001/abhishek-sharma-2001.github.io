@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b23761a.css",
+    "main.js": "/static/js/main.8a451470.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/major-project.png": "/static/media/major-project.61a028b3a0888615a523.png",
+    "static/media/abhishek_img.jpeg": "/static/media/abhishek_img.8bb923eccf2f700b4724.jpeg",
+    "static/media/web-browser-project.png": "/static/media/web-browser-project.960f36c37cc6c5187838.png",
+    "static/media/database.png": "/static/media/database.d1e485bfbf72c95469c4.png",
+    "static/media/other.png": "/static/media/other.7b48c1dfda7ae426b8cc.png",
+    "static/media/university.png": "/static/media/university.c8420ea9c037f031f26b.png",
+    "static/media/backend.png": "/static/media/backend.f2a8e523de0a7bfec272.png",
+    "static/media/logo_abhishek.png": "/static/media/logo_abhishek.6e4bb68780f57ac86a32.png",
+    "static/media/ssc.png": "/static/media/ssc.1bf94b6fd655c6ce1557.png",
+    "static/media/frontend.png": "/static/media/frontend.00eab350a3f93067b3dc.png",
+    "static/media/language.png": "/static/media/language.8c278e001b651cc2b89e.png",
+    "static/media/hsc.png": "/static/media/hsc.38ef07787dc1de82896b.png",
+    "index.html": "/index.html",
+    "main.1b23761a.css.map": "/static/css/main.1b23761a.css.map",
+    "main.8a451470.js.map": "/static/js/main.8a451470.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b23761a.css",
+    "static/js/main.8a451470.js"
+  ]
+}
