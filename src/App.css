@@ -1,0 +1,331 @@
+/*--------------- universal -----------------*/
+.sub-heading {
+  font-family: "Carlito", sans-serif;
+}
+.cursive-font {
+  font-family: "Radley", serif;
+}
+/* body {
+  padding: 15%;
+  padding-top: 0;
+} */
+
+.pageBody{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+/*--------------- Hello Page -----------------*/
+.hello {
+  padding-top: 40px;
+}
+.logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-top: 3vh;
+}
+.hello-info {
+  margin-top: 150px;
+}
+
+.hire-button {
+  margin-top: 10%;
+  background-color: transparent;
+  border: none;
+  color: #9b4819;
+  font-size: 3vb;
+  cursor: pointer;
+  font-style: italic;
+  transition: transform 0.3s ease;
+}
+.hire-button:hover {
+  /* transition: #9B4819 0.3s ease; */
+  transform: scale(1.4);
+  font-style: bold;
+}
+.hello-heading {
+  font-size: 10vh;
+}
+.black-text {
+  color: black;
+}
+.brown-text {
+  color: #9b4819;
+}
+.hello-page {
+  font-size: 2.77vh;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+
+
+
+/*--------------- About Section -----------------*/
+
+.about {
+  margin-top: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-abhishek {
+  font-style: italic;
+  font-size: 5.5vh;
+  color: #9b4819;
+  padding-top: 18vh;
+}
+.about-info {
+  font-size: 2.4vh;
+  padding-top: 5vh;
+  padding-right: 7vh;
+  padding-top: 5vh;
+}
+.abhishek-pic {
+  /* max-width: 700px;
+  max-height: 700px; */
+  max-width: 80%;
+  height: auto;
+  border-radius: 45% 45% 0 0;
+  margin-left: 2vh;
+  /* border: 5px solid black; */
+}
+
+/*--------------- Background Page -----------------*/
+
+.background-history {
+  margin-top: 20%;
+}
+.background-header {
+  font-size: 5.5vh;
+  color: #9b4819;
+  text-align: center;
+  margin-bottom: 10%;
+  /* font-weight: bold; */
+}
+.card-title {
+  font-weight: 550;
+}
+.card-background-section {
+  background: none;
+  border: none;
+  text-align: center;
+  color: #191919;
+}
+.image-background-section {
+  width: 101px;
+  height: 102px;
+  align-self: center;
+  background: none;
+}
+.hr-custom {
+  border: 1px solid #9b4819;
+}
+
+/*------------------ skills -----------------------*/
+
+.skills {
+  margin-top: 20%;
+}
+
+/*-------------------Projects----------------------*/
+
+.project {
+  margin-top: 20%;
+}
+.project-header{
+  font-family: "Radley", serif;
+  color: #9b4819;
+}
+.project-1-img{
+  max-width: 100%;
+  height: auto;
+  /* padding: 5%; */
+}
+.project-1{
+  padding-right: 10%;
+}
+.hr-margin{
+  margin-top: 5%;
+}
+.project-para{
+  margin-top: 5%;
+  padding-right: 18%;
+
+}
+.project-2{
+  margin-top: 5%;
+}
+.project-2-img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* -------------------------Contact Me---------------------------------- */
+.contact{
+  margin-top: 10%;
+  background-color: #9B4819;
+  color: #F4F1E8;
+  /* margin-bottom: 5%; */
+}
+.socials{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.contact-message{
+  font-size: 5.5vh;
+  padding-right: 40%;
+  margin-top: 5%;
+}
+.contact-hr{
+  color: #F4F1E8;
+  height: 3px;
+  width: 50%;
+
+}
+.footer{
+  margin-top: 5%;
+  font-size: larger;
+}
+.icon-container {
+  display: flex; /* Display the icons in a row */
+  justify-content: center; /* Center align the icons horizontally */
+  gap: 20px; /* Add space between the icons */
+  margin-top: 20px; /* Add top margin */
+}
+
+.bi-linkedin::before {
+  margin: 2px;
+  content: "\f472";
+  font-size: 28px;
+}
+
+.bi-github::before {
+  margin: 2px;
+  /* content: "\f472"; */
+  font-size: 28px;
+}
+
+
+
+.footer-links{
+  margin-right: 1%;
+}
+.cursor{
+  cursor: pointer;
+}
+
+/* -------------------------Responsive---------------------------------- */
+
+
+
+@media only screen and (max-width: 600px) {
+  .hello {
+    padding-top: 150px;
+  }
+  .logo {
+    height: 10vmin;
+    pointer-events: none;
+    margin-top: 0px;
+  }
+  
+}
+
+/* Default styles for all screen sizes */
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  /* Mobile-specific styles here */
+  
+  /* For example, adjust font size for mobile */
+  .hello-heading {
+    font-size: 24px;
+  }
+  
+  .sub-heading {
+    font-size: 14px;
+  }
+  
+  /* Adjust padding or margin if needed */
+  .project {
+    padding: 20px;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Tablet-specific styles here */
+  
+  /* For example, adjust font size for tablets */
+  .hello-heading {
+    font-size: 32px;
+  }
+  
+  .sub-heading {
+    font-size: 16px;
+  }
+  
+  /* Adjust padding or margin if needed */
+  .project {
+    padding: 40px;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+  /* Desktop-specific styles here */
+  
+  /* For example, adjust font size for desktop */
+  .hello-heading {
+    font-size: 48px;
+  }
+  
+  .sub-heading {
+    font-size: 18px;
+  }
+  
+  /* Adjust padding or margin if needed */
+  .project {
+    padding: 60px;
+  }
+}
+/* ---------------------600px - mediaquery-------------------------- */
+@media (max-width: 600px) {
+  .custom-row {
+    /* Adjusted styles for smaller screens */
+    margin-left: 40%;
+    margin-right: -15px;
+  }
+  .bi-linkedin::before {
+    margin: 5px;
+    content: "\f472";
+    font-size: 28px;
+  }
+  
+  .bi-github::before {
+    margin: 3px;
+    /* content: "\f472"; */
+    font-size: 28px;
+  }
+  .project,.about,.about-abhishek,.project-para,.about-info{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  .project-para,.about-info{
+    margin-left: 25px;
+  }
+}
